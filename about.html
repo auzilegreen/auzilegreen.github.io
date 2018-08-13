@@ -1,0 +1,43 @@
+<html>
+	<head>
+	<script>
+    window.addEventListener("keydown",onKeyDown);
+	function onKeyDown(e)
+	{
+		var str=String.fromCharCode(e.keyCode);
+		console.log(str+" : "+e.keyCode);
+		
+		if(e.keyCode==27)
+			{
+				location.replace("index.html");
+			}
+	}
+	
+	  </script>
+        <link href="style.css" type="text/css" rel="stylesheet">
+	</head>
+<body>
+		<center>
+		<div id="header" style="width:1200px; height:100px; background-color:#706262" align="left">
+		<span style="color: #F16900; font-size: 36px; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">__
+        <span style="font-style: normal"><u>VIRTUAL Piano</u></span>_______________________________________________</span></br></br></br>
+  <span>
+   <input name="exit" type="button" id="e" value="X" onClick="window.location='index.html'">
+  </span>
+    </div>
+	<div id="container" style="background-image:url(Assets/Gambar/Piano-Resized-Size.jpg); width:1200px; height:550px;">
+    </br></br></br></br></br></br></br>
+    <div id="rect" style="width:900px; height:300px; border:5px solid #FFFFFF; background-color:rgba(120,111,111,0.90);">
+    <span style="color: #D3D3D3; font-size: 24px; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">
+  	Website ini menyediakan sarana bermain virtual piano secara gratis tanpa biaya sepersen pun, karena kami menyadari
+    betapa pentingnya musik bagi dunia, dan juga sarana untuk proses pembelajaran musik akan sangat membantu banyak orang
+    berkembang maupun dari sisi kecerdasarn kognitif ataupun kecerdasan emosional, dengan ini perusahaan kami akan selalu berse
+    mangat memberikan produk yang terbaik demi memfasilitasi orang-orang yang ingin berkembang.<br>
+    </span>
+    </div>
+        
+</center>
+</body>
+<script>
+</script>
+</html>
